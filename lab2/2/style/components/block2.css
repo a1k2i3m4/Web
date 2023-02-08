@@ -1,0 +1,62 @@
+.block2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 63px;
+    background-color: white;
+    border:solid 1px #dbdbdb;
+    margin: 20px 0;
+}
+.block2 a{
+    text-decoration: none;
+    color: blue;
+    margin-left: 5px;
+}
+.play{
+    width: 135px;
+    height: 40px;
+}
+.play img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.microsoft{
+    width: 110px;
+    height: 40px;
+    margin-left: 10px;
+}
+.microsoft img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.block3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    display: flex;
+}
+.block3 span{
+    margin: 5px 0;
+}
+.main2{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.main2 a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
