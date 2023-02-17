@@ -64,13 +64,14 @@ function doneTask(event) {
     if (event.target.dataset.action=="done") {
         const parentNode=event.target.closest(".list-group-item");
         const id =Number(parentNode.id)
-        const task =task.find(function(task) {
+        const task =tasks.find(function(task) {
             if (task.id===id) {
                 return true
             }
         })
         task.done=!task.done
         const span =parentNode.querySelector('.task-title')
+        console.log(span);
         span.classList.toggle('task-title--done')
     }
     
