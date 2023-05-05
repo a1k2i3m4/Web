@@ -1,0 +1,51 @@
+.category i a{
+  font-size: 24px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.favorite{
+  font-size: 35px;
+  color:red;
+}
+.favorite:hover{
+  color:grey;
+  opacity: 50%;
+}
+.favorite.not{
+  color:grey
+}
+.favorite.not:hover{
+  opacity: 50%;
+  color:red;
+}
+.link{
+  text-decoration: none;
+  color:black;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.img{
+  width: 500px;
+}
+.favorite-button{
+  border-radius: 5px;
+  border:none;
+  background-color: grey;
+  color:white;
+  height: 20px;
+}
+.favorite-button:hover{
+  background-color: darkgreen;
+}
+
